@@ -37,7 +37,7 @@ public class SayHelloController {
     // create sayHello.jsp
     // we want tp redirect "say-hello-jsp" => sayHello.jsp
     @RequestMapping("say-hello-jsp")
-//    @ResponseBody
+    @ResponseBody
     public String sayHelloJsp() {
         return "sayHello";
     }
